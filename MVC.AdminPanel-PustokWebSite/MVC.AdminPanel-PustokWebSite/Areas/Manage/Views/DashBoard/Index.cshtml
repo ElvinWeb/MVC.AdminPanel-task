@@ -1,0 +1,39 @@
+﻿@* @using MVC.AdminPanel_PustokWebSite.Models;
+@model List<Service>;
+@{
+    int counter = 0;
+}
+
+<div class="container-fluid ">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1>About Cards Table</h1>
+        <a class="btn btn-success" style="width:110px;font-size:20px;" asp-action="Create" asp-controller="Dashboard">Add</a>
+    </div>
+    <table class="table table-striped shadow">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">IconClass</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                counter++;
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td style="width:150px;">@item.Title</td>
+                    <td style="width:30%;">@item.Desc</td>
+                    <td style="width:30%;">@item.Icon</td>
+                    <td>
+                        <a class="btn btn-danger" style="width:100px;margin-right:10px;">Delete</a>
+                        <a class="btn btn-primary" style="width:100px;">Update</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div> *@
