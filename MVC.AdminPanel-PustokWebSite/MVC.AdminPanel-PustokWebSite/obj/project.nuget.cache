@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mN5gz/w77MoBqdfXl10wWaI3rN+SASMdplE93wPOhWj7iy+fBeVoii4Mqn2NlWy+GsTYuGakSmkr8l6W7yrygg==",
+  "dgSpecHash": "FL/ZSi5q0uj3/WO8fMw2fYv8DIi22DHSmpfyJgPD3g3rkYSeaQ/d7DJwiLlX8wrttjIHVP5Gm9shzphBJpsSjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
+  "projectFilePath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\AdminPanelTask\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elvin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\elvin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

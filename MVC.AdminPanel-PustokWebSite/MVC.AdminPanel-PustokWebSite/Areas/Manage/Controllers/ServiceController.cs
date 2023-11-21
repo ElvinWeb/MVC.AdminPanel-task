@@ -33,10 +33,8 @@ namespace MVC.AdminPanel_PustokWebSite.Areas.Manage.Controllers
         public IActionResult Create(Service service)
         {
 
-            if (!ModelState.IsValid)
-            {
-                return View();
-            }
+            if (!ModelState.IsValid) return View();
+
             _DbContext.Services.Add(service);
             _DbContext.SaveChanges();
 
@@ -56,12 +54,12 @@ namespace MVC.AdminPanel_PustokWebSite.Areas.Manage.Controllers
             Service existService1 = _DbContext.Services.FirstOrDefault(x => x.Id == service.Id);
             if (existService1 == null)
             {
-                return RedirectToAction("Index");
+                return NotFound();
             }
             _DbContext.Services.Remove(existService1);
             _DbContext.SaveChanges();
 
-            return NotFound();
+            return RedirectToAction("Index");
         }
 
         [HttpGet]

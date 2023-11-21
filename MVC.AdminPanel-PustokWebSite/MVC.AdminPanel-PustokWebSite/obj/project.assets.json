@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
+      "projectUniqueName": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\AdminPanelTask\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
       "projectName": "MVC.AdminPanel-PustokWebSite",
-      "projectPath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
+      "projectPath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\AdminPanelTask\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite.csproj",
       "packagesPath": "C:\\Users\\elvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\obj\\",
+      "outputPath": "C:\\Users\\elvin\\OneDrive\\Documents\\Sənədlər\\ForFuture-tasks\\AdminPanelTask\\MVC.AdminPanel-PustokWebSite\\MVC.AdminPanel-PustokWebSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",

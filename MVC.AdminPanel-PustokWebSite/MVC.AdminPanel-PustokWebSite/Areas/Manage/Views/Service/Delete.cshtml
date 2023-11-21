@@ -1,17 +1,19 @@
 ﻿@using MVC.AdminPanel_PustokWebSite.Models;
 @model Service;
-<div class="container ">
+<form method="post">
+    <div class="container ">
 
-<div class="card mt-5 mb-3" style="width: 18rem;">
-    <div class="card-header">
-        Delete a About Card 
+        <div class="card mt-5 mb-3" style="width: 18rem;">
+            <div class="card-header">
+                Delete a About Card
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">@Model.Title</li>
+                <li class="list-group-item">@Model.Desc</li>
+                <li class="list-group-item">@Model.Icon</li>
+            </ul>
+        </div>
+        <a class="btn btn-success" asp-action="Index" asp-controller="Service">Back to Home</a>
+        <button class="btn btn-danger" style="margin-left:10px" type="submit">Delete</button>
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">@Model.Title</li>
-        <li class="list-group-item">@Model.Desc</li>
-        <li class="list-group-item">@Model.Icon</li>
-    </ul>
-</div>
- <a class="btn btn-success" asp-action="Index" asp-controller="Service">Back to Home</a>
- <a class="btn btn-danger" style="margin-left:10px" asp-action="Delete" asp-controller="Service">Delete</a>
-</div>
+</form>
